@@ -2,3 +2,18 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+.container {
+  display: flex;
+}
+
+.preview {
+  display: flex;
+  min-width: 0;
+  width:25%;
+}
+
+.preview img {
+  min-width: 0;
+  width:100%;
+}
